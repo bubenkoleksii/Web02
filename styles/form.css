@@ -1,0 +1,50 @@
+fieldset {
+    margin-left: 500px;
+    margin-top: 120px;
+    width: 370px;
+    height: 450px;
+    background-color: #eaeaea;
+}
+
+td:first-child {
+    text-align: right;
+    font-weight: bold;
+}
+
+tr:nth-child(1) td:nth-child(2) input, tr:nth-child(4) td:nth-child(2) input, 
+tr:nth-child(5) td:nth-child(2) input {
+    background-color: #FFFBB7;
+    border: 3px solid #D9D000;
+    height: 25px;
+    width: 230px;
+}
+
+tr:nth-child(2) td:nth-child(2) input, tr:nth-child(3) td:nth-child(2) input {
+    background-color: #F0B4EE;
+    border: 3px solid #CE14C0;
+    height: 25px;
+    width: 230px;
+}
+
+tr:nth-child(7) td:nth-child(2) select {
+    background-color: #AF9CFF;
+    border: 3px solid #4A2DFF;
+    height: 35px;
+    width: 240px;
+}
+
+tr:nth-child(8) td:nth-child(2) textarea {
+    background-color: #BEF2A7;
+    border: 3px solid #0B9400;
+    height: 80px;
+    width: 230px;
+}
+
+tr:nth-child(10) td:nth-child(2) input:first-child {
+
+    background-color: #BEF2A7;
+}
+
+tr:nth-child(10) td:nth-child(2) input:nth-child(2) {
+    background-color: #F5848A;
+}

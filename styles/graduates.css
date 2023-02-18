@@ -1,0 +1,103 @@
+body {
+    width: 800px;
+    padding-left: 50px;
+}
+
+.logo {
+    float: left;
+}
+
+.greatest {
+    float: left;
+    padding-left: 20px;
+    line-height: 10px;
+}
+
+h1 {
+    font-family: Tahoma, sans-serif;
+    color: dimgrey;
+}
+
+img {
+    width: 50px;
+    height: 50px;
+}
+
+.picture1, .picture2 {
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+}
+
+.graduate1 {
+    font-style: italic;
+    margin-top:  50px;
+}
+
+.graduate2 {
+    font-style: italic;
+    margin-top: 400px;
+}
+
+.first, .second {
+    width: 200px;
+    text-align: center;
+    float: left;
+}
+
+.firstB, .secondB {
+    float: left;
+    padding-left: 130px;
+}
+
+#N, #N2 {
+    float: right;
+    padding-right: 10px;
+}
+
+hr {
+    width: 20px;
+    float: right;
+}
+
+#NN, #NN2 {
+    float: right;
+    margin-left: 5px;
+}
+
+.firstB:before, .secondB:before {
+    float: left;
+    margin-right: 10px;
+    background-size: 10px 10px;
+    background-repeat: no-repeat;
+    width: 10px;
+    height: 10px;
+    display: block;
+    content: "";
+}
+
+#NN:before, #NN2:before {
+    float: right;
+    margin-left: 10px;
+    background-size: 10px 10px;
+    background-repeat: no-repeat;
+    width: 10px;
+    height: 10px;
+    display: block;
+    content: "";
+}
+
+.startquotes {
+    float: left;
+    margin-left: -60px;
+    font-weight: bold;
+    font-size: 400%;
+    color: lightgrey;
+}
+
+.finalquotes {
+    float: right;
+    font-weight: bold;
+    font-size: 400%;
+    color: lightgrey;
+}

@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bubenko | Form</title>
+    <link href="styles/form.css" rel="stylesheet">
+</head>
+<body>
+    <fieldset>
+        <form action="" method="post">
+            <table>
+                <tr>
+                    <td><label for="email">E-mail:</label></td>
+                    <td><input type="email" placeholder="example@.com" id="email"> </td>
+                </tr>
+                <tr>
+                    <td><label for="password">Пароль:</label></td>
+                    <td><input type="password" placeholder="88888888" id="password"></td>
+                </tr>
+                <tr>
+                    <td><label for="password_r">Пароль ещё раз:</label></td>
+                    <td><input type="password" placeholder="88888888" id="password_r"></td>
+                </tr>
+                <tr>
+                    <td><label for="name">Имя:</label></td>
+                    <td><input type="text" placeholder="Petya" id="name"></td>
+                </tr>
+                <tr>
+                    <td><label for="surname">Фамилия:</label></td>
+                    <td><input type="text" placeholder="Pyatochkin" id="surname"></td>
+                </tr>
+                <tr>
+                    <td><label>Пол:</label></td>
+                    <td> <input type="radio" name="sex" id="m"><label for="m">мужской</label>
+                        <input type="radio" name="sex" id="f"><label for="f">женский</label></td>
+                </tr>
+                <tr>
+                    <td>Город:</td>
+                    <td>
+                        <select>
+                            <option>Житомир</option>
+                            <option>Киев</option>
+                            <option>Одесса</option>
+                            <option>Харьков</option>
+                            <option>Днепр</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="for_me">О себе:</label></td>
+                    <td><textarea rows="5" id="for_me"placeholder="Что-то тут про себя. Я такой хороший, ля-ля-ля"></textarea></td>
+                </tr>
+                <tr>
+                    <td>Соглашение:</td>
+                    <td>
+                        <input type="checkbox">Получить расслыку сайту<br>
+                        <input type="checkbox">Соглашаюсь с правилами сайта<br>
+                        <input type="checkbox">Скрыть профиль на сайте<br>
+                    </td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td>
+                        <input type="submit" value="Зарегистрироваться">
+                        <input type="reset" value="Сброс">
+                    </td>
+                </tr>
+            </table>
+        </form>
+    </fieldset>
+</body>
+</html>

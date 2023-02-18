@@ -1,0 +1,25 @@
+.nav li {
+    display: inline-block;
+    padding: 10px;
+    margin-right: 20px;
+    margin-top: 200px;
+    border: 2px solid #B0C7D8;
+    border-radius: 5px;
+}
+
+.nav li:first-child {
+    margin-left: 35%;
+}
+
+.nav a {
+    color: #877160;
+    text-decoration: none;
+}
+
+.nav li:hover {
+    background-color: #607788;
+}
+
+.nav li:hover a {
+    color: white;
+}
